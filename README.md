@@ -9,5 +9,20 @@ A basic CLI program that applies some basic filters to a given image
 - argparse
 
 ## Usage
-In order to run the program, use the following command:
-`` uv run image-processor "file_path" <args> ``
+In order to run the program, use the following command:  
+- `` uv run image-processor "file_path" <args> ``
+
+#### Positional Arguments 
+  - **`filename`** — Path to the image file to process 
+
+#### Options
+
+- **`-b`, `--blur`** — Apply a box blur to the image
+- **`-bg`, `--blur_gaussian`** — Apply a Gaussian blur to the image
+- **`-i`, `--invert`** — Invert the image's colors
+- **`-e`, `--edge`** — Detect and highlight edges in the image
+- **`-v`, `--vignette`** — Apply a vignette (darkened corners) effect
+- **`-s`, `--sepia`** — Apply a sepia tone filter
+- **`-fg`, `--film_grain`** — Add film grain noise to the image
+- **`-g`, `--grayscale`, `--greyscale`** — Convert the image to grayscale
+- **`-sat`, `--saturate`** — Boost the image's color saturation
