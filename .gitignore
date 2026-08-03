@@ -167,6 +167,9 @@ venv.bak/
 # mkdocs documentation
 /site
 
+#
+src/image_processor/Updated_*
+
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -215,8 +218,4 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-<<<<<<< HEAD
 .streamlit/secrets.toml
-=======
-.streamlit/secrets.toml
->>>>>>> d842fde (Second commit, added .gitignore)
