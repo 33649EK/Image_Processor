@@ -22,7 +22,7 @@ class Image_Processor:
 
         arr = np.array(self.img.convert("RGB"), dtype=np.float32)
 
-        radius = 2
+        radius = 6
 
         kernel_size = radius * 2 + 1
 
@@ -37,7 +37,7 @@ class Image_Processor:
         arr = np.array(self.img.convert("RGB"), dtype=np.float32)
 
         self.img = Image.fromarray(
-            gaussian_filter(arr, sigma=(1.7, 1.5, 0)).astype(np.uint8)
+            gaussian_filter(arr, sigma=(5, 7, 0)).astype(np.uint8)
         )
 
         print(f"Gaussian Blur Applied")
