@@ -33,3 +33,5 @@ In order to run the program, use the following command:
 ![Alt Text](README_Photos/City.jpg)
 - **After Film Grain and Vignette Added**  
 ![Alt Text](README_Photos/City_Vignette_Grain.jpg)
+- **After Edge Detection**
+![Alt Text](README_Photos/City_Edge_Detection.png)
