@@ -19,7 +19,7 @@ def main() -> None:
     parser.add_argument("-sat", "--saturate", action="store_true")
     args = parser.parse_args()
 
-    # extraxt image filename from arguments
+    # extract image filename from arguments
     image_to_open = args.filename.strip()
 
     # Ask user whether they want .jpg or .png as output
