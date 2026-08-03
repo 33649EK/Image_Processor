@@ -1,6 +1,6 @@
 import argparse
 from PIL import Image
-from .Image_Processor import Image_Processor
+from image_processor.Image_Processor import Image_Processor
 
 
 def main() -> None:
@@ -62,3 +62,7 @@ def main() -> None:
 
     # save final image to current directory
     image.save_image()
+
+
+if __name__ == "__main__":
+    main()

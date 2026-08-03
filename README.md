@@ -2,7 +2,7 @@
 A basic CLI program that applies some basic filters to a given image
 
 ## Dependencies
-- uv: This is a python package manager and venv manager
+- uv: This is a python package manager and venv manager and can be installed via homebrew
 - numpy
 - scipy
 - pillow
