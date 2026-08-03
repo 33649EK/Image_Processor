@@ -35,3 +35,7 @@ In order to run the program, use the following command:
 ![Alt Text](README_Photos/City_Vignette_Grain.jpg)
 - **After Edge Detection**
 ![Alt Text](README_Photos/City_Edge_Detection.png)
+- **Greyscale**
+![Alt Text](README_Photos/City_Greyscale.jpg)
+- **Sepia**
+![Alt Text](README_Photos/City_Sepia.jpg)
