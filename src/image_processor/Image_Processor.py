@@ -118,7 +118,7 @@ class Image_Processor:
         # arr @ sepia_matrix.T applies the matrix to every pixel's [R,G,B] at once
         sepia = arr @ sepia_matrix.T
 
-        # Values can exceed 255 after this transform — clip before converting
+        # Values can exceed 255 after the previous line, so this caps the values
         sepia = np.clip(sepia, 0, 255)
 
         self.img = Image.fromarray(sepia.astype(np.uint8))
