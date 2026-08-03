@@ -26,3 +26,10 @@ In order to run the program, use the following command:
 - **`-fg`, `--film_grain`** — Add film grain noise to the image
 - **`-g`, `--grayscale`, `--greyscale`** — Convert the image to grayscale
 - **`-sat`, `--saturate`** — Boost the image's color saturation
+
+## Examples
+
+- **Original**  
+![Alt Text](README_Photos/City.jpg)
+- **After Film Grain and Vignette Added**  
+![Alt Text](README_Photos/City_Vignette_Grain.jpg)
